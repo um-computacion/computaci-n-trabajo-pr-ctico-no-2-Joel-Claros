@@ -1,4 +1,3 @@
-from os import system
 word = str
 def is_palindrome(word: str) -> bool:
     j = 0
@@ -15,7 +14,7 @@ def is_palindrome(word: str) -> bool:
         else:
             j = len(word)
             return False
-
+from os import system
 def clear():
     system("cls")
 
