@@ -14,3 +14,11 @@ def is_palindrome(word: str) -> bool:
         else:
             j = len(word)
             return False
+from os import system
+def clear():
+    system("cls")
+
+
+
+
+clear()
