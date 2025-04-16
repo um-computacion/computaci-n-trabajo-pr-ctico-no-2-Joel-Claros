@@ -1,7 +1,4 @@
-import unittest
-
 from os import system
-system("cls")
 word = str
 def is_palindrome(word: str) -> bool:
     j = 0
