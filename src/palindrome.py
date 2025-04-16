@@ -1,3 +1,5 @@
+import unittest
+
 from os import system
 system("cls")
 word = str
@@ -21,6 +23,6 @@ def clear():
     system("cls")
 
 
-    
+
 
 clear()
